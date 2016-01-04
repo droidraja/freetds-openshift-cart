@@ -1,17 +1,10 @@
 #!/bin/bash
 
-version=voltdb
+version=freetds
 
 function status() {
 
-  	client_result $pwd
-    ps -C java > /dev/null
-    if [ "$?" -eq "0" ];
-    then
     client_result "voltdb is running";
-    else
-    client_result "voltdb is not running";
-    fi
 
 
 }
