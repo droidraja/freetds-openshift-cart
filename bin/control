@@ -52,7 +52,7 @@ function stop() {
 
 
 	client_result "stopping voltdb...."
-    client_result "voltdb is running ...issuing stop ";
+  client_result "voltdb is running ...issuing stop ";
 
 }
 
