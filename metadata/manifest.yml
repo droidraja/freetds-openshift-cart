@@ -1,5 +1,5 @@
 Name: voltdb
-Cartridge-Short-Name: freetds
+Cartridge-Short-Name: FREETDS
 Display-Name: freetds
 Description: The binary for freetds
 Version: "0.95.0.3"
@@ -16,4 +16,4 @@ Scaling:
   Min: 1
   Max: -1
 
-Source-Url: https://github.com/jmccormick2001/voltdb-cart.git
+Source-Url: https://github.com/droidraja/freetds-openshift-cart.git
