@@ -1,0 +1,19 @@
+Name: voltdb
+Cartridge-Short-Name: freetds
+Display-Name: freetds
+Description: The binary for freetds
+Version: "0.95.0.3"
+Website: cartridge provided by srajasudhan@gmail.com
+Cartridge-Version: 0.1.0
+Cartridge-Vendor: rajasudhan
+Categories:
+  - database
+  - embedded
+Provides:
+  - freetds0.95.0.3
+  - freetds
+Scaling:
+  Min: 1
+  Max: -1
+
+Source-Url: https://github.com/jmccormick2001/voltdb-cart.git
