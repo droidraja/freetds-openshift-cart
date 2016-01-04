@@ -3,9 +3,3 @@
 #
 # perform some setup of the openshift env after the installation
 #
-
-set -u
-
-source $OPENSHIFT_CARTRIDGE_SDK_BASH
-
-client_result "setup completed"
