@@ -9,8 +9,8 @@ client_result "installing microsoft sql server odbc connector....`date`"
 
 tar xvzf $OPENSHIFT_FREETDS_DIR/versions/freetds.tar --directory=$OPENSHIFT_FREETDS_DIR
 
-source $OPENSHIFT_FREETDS_DIR/freetds/configure --prefix=$OPENSHIFT_FREETDS_DIR
-source $OPENSHIFT_FREETDS_DIR/freetds/make
-source $OPENSHIFT_FREETDS_DIR/freetds/make/install
+#source $OPENSHIFT_FREETDS_DIR/freetds/configure --prefix=$OPENSHIFT_FREETDS_DIR
+#source $OPENSHIFT_FREETDS_DIR/freetds/make
+#source $OPENSHIFT_FREETDS_DIR/freetds/make/install
 
 client_result "install complete....`date`"
