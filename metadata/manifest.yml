@@ -10,7 +10,6 @@ Categories:
   - database
   - embedded
 Provides:
-  - freetds0.95.0.3
   - freetds
 Scaling:
   Min: 1
