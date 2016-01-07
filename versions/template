@@ -1,0 +1,4 @@
+[FreeTDS]
+    Description = TDS driver
+    Driver = /usr/lib/odbc/libtdsodbc.so
+    Setup = /usr/lib/odbc/libtdsS.so
