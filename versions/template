@@ -1,4 +1,4 @@
-[FreeTDS]
-    Description = TDS driver
-    Driver = /usr/lib/odbc/libtdsodbc.so
-    Setup = /usr/lib/odbc/libtdsS.so
+[sqlserver]
+Description=freetds driver
+Driver=/var/lib/openshift/5686c68589f5cf87d20000eb/freetds/libtdsodbc.so
+Setup=/var/lib/openshift/5686c68589f5cf87d20000eb/freetds/libtdsS.so
